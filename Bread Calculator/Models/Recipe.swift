@@ -12,10 +12,10 @@ import CoreLocation
 struct Recipe: Hashable, Codable {
     var id: Int
     var name: String
-    var flourQty: Int
-    var waterQty: Int
-    var yeastQty: Int
-    var saltQty: Int
+    var flourQty: Double
+    var waterQty: Double
+    var yeastQty: Double
+    var saltQty: Double
 
     static let `default` = Self(id: 1, name: "Basic No-Knead", flourQty: 1000, waterQty: 800, yeastQty: 8, saltQty: 11)
     

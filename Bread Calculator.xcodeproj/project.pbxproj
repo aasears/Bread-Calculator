@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93F68B8224416B1E00A7CE59 /* recipeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 93F68B8124416B1E00A7CE59 /* recipeData.json */; };
 		E5C1EABC24354D52009BB8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EABB24354D52009BB8C0 /* AppDelegate.swift */; };
 		E5C1EABE24354D52009BB8C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EABD24354D52009BB8C0 /* SceneDelegate.swift */; };
 		E5C1EAC124354D52009BB8C0 /* Bread_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EABF24354D52009BB8C0 /* Bread_Calculator.xcdatamodeld */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93F68B8124416B1E00A7CE59 /* recipeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeData.json; sourceTree = "<group>"; };
 		E5C1EAB824354D52009BB8C0 /* Bread Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bread Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C1EABB24354D52009BB8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5C1EABD24354D52009BB8C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				E5C1EAE624355BCC009BB8C0 /* stmarylake.jpg */,
 				E5C1EAE724355BCC009BB8C0 /* chilkoottrail.jpg */,
 				E5C1EAE824355BCC009BB8C0 /* rainbowlake.jpg */,
+				93F68B8124416B1E00A7CE59 /* recipeData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5C1EACB24354D53009BB8C0 /* LaunchScreen.storyboard in Resources */,
+				93F68B8224416B1E00A7CE59 /* recipeData.json in Resources */,
 				E5C1EAC824354D53009BB8C0 /* Preview Assets.xcassets in Resources */,
 				E5C1EAC524354D53009BB8C0 /* Assets.xcassets in Resources */,
 			);

@@ -1,0 +1,19 @@
+
+[
+    {
+        "id": 1001,
+        "name": "Basic Bread",
+        "flourQty": 1000,
+        "waterQty": 740,
+        "yeastQty": 11,
+        "saltQty": 19
+    },
+    {
+        "id": 1002,
+        "name": "Advanced Bread",
+        "flourQty": 1000,
+        "waterQty": 800,
+        "yeastQty": 8,
+        "saltQty": 11
+    }
+]
