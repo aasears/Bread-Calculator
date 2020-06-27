@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		93F68B8224416B1E00A7CE59 /* recipeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 93F68B8124416B1E00A7CE59 /* recipeData.json */; };
-		E5C1EABC24354D52009BB8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EABB24354D52009BB8C0 /* AppDelegate.swift */; };
-		E5C1EABE24354D52009BB8C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EABD24354D52009BB8C0 /* SceneDelegate.swift */; };
+		E596FC882446956E00DFF7B5 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596FC872446956E00DFF7B5 /* RecipeData.swift */; };
+		E5A97C5A24A7B44A0065B1B8 /* BreadCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A97C5924A7B44A0065B1B8 /* BreadCalculatorApp.swift */; };
 		E5C1EAC124354D52009BB8C0 /* Bread_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EABF24354D52009BB8C0 /* Bread_Calculator.xcdatamodeld */; };
 		E5C1EAC324354D52009BB8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EAC224354D52009BB8C0 /* ContentView.swift */; };
 		E5C1EAC524354D53009BB8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C1EAC424354D53009BB8C0 /* Assets.xcassets */; };
@@ -18,13 +18,15 @@
 		E5C1EAD324355473009BB8C0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EAD224355473009BB8C0 /* CircleImage.swift */; };
 		E5C1EAD524355698009BB8C0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EAD424355698009BB8C0 /* MapView.swift */; };
 		E5C1EAD724355B2B009BB8C0 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EAD624355B2B009BB8C0 /* Recipe.swift */; };
+		E5F911BC2445420800A30CB7 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F911BB2445420800A30CB7 /* PageViewController.swift */; };
+		E5F911C024454A2900A30CB7 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F911BF24454A2900A30CB7 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93F68B8124416B1E00A7CE59 /* recipeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeData.json; sourceTree = "<group>"; };
+		E596FC872446956E00DFF7B5 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		E5A97C5924A7B44A0065B1B8 /* BreadCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadCalculatorApp.swift; sourceTree = "<group>"; };
 		E5C1EAB824354D52009BB8C0 /* Bread Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bread Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5C1EABB24354D52009BB8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5C1EABD24354D52009BB8C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5C1EAC024354D52009BB8C0 /* Bread_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bread_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		E5C1EAC224354D52009BB8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5C1EAC424354D53009BB8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		E5C1EAE624355BCC009BB8C0 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		E5C1EAE724355BCC009BB8C0 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		E5C1EAE824355BCC009BB8C0 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		E5F911BB2445420800A30CB7 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		E5F911BF24454A2900A30CB7 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,7 @@
 		E5C1EABA24354D52009BB8C0 /* Bread Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				E5C1EABB24354D52009BB8C0 /* AppDelegate.swift */,
-				E5C1EABD24354D52009BB8C0 /* SceneDelegate.swift */,
+				E5A97C5924A7B44A0065B1B8 /* BreadCalculatorApp.swift */,
 				E5C1EAC224354D52009BB8C0 /* ContentView.swift */,
 				E5C1EAD824355B31009BB8C0 /* Models */,
 				E5C1EADB24355BCC009BB8C0 /* Resources */,
@@ -91,6 +94,8 @@
 				E5C1EACC24354D53009BB8C0 /* Info.plist */,
 				E5C1EABF24354D52009BB8C0 /* Bread_Calculator.xcdatamodeld */,
 				E5C1EAC624354D53009BB8C0 /* Preview Content */,
+				E5F911BB2445420800A30CB7 /* PageViewController.swift */,
+				E5F911BF24454A2900A30CB7 /* PageView.swift */,
 			);
 			path = "Bread Calculator";
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				E5C1EAD624355B2B009BB8C0 /* Recipe.swift */,
+				E596FC872446956E00DFF7B5 /* RecipeData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,13 +210,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A97C5A24A7B44A0065B1B8 /* BreadCalculatorApp.swift in Sources */,
 				E5C1EAD724355B2B009BB8C0 /* Recipe.swift in Sources */,
-				E5C1EABC24354D52009BB8C0 /* AppDelegate.swift in Sources */,
 				E5C1EAD524355698009BB8C0 /* MapView.swift in Sources */,
-				E5C1EABE24354D52009BB8C0 /* SceneDelegate.swift in Sources */,
 				E5C1EAC324354D52009BB8C0 /* ContentView.swift in Sources */,
 				E5C1EAC124354D52009BB8C0 /* Bread_Calculator.xcdatamodeld in Sources */,
 				E5C1EAD324355473009BB8C0 /* CircleImage.swift in Sources */,
+				E596FC882446956E00DFF7B5 /* RecipeData.swift in Sources */,
+				E5F911C024454A2900A30CB7 /* PageView.swift in Sources */,
+				E5F911BC2445420800A30CB7 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -332,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
